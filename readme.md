@@ -1,0 +1,1 @@
+Due to copyright reasons I cannot include poppler in the repository. You need to download poppler zip from https://blog.alivate.com.au/poppler-windows/ and extract it within the folder. It will then recognise the poppler_path!
