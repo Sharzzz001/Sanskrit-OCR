@@ -27,4 +27,5 @@ def easy_model(finallist):
             textfilename = os.path.splitext(images[i])[0].lower()
             with open(r'results/{}.txt'.format(textfilename), 'w',encoding="utf-8") as f:
                 f.write(translated_text)
-            print("Percentage: "+str(round(((i+1)/len(images))*100,2))+"%",end=" ")
+            print("Percentage: "+str(round(((i+1)/len(images))*100,2))+"%\r",end="")
+        input("Task successfully completed! Press Enter to quit...")

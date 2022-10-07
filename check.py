@@ -14,7 +14,7 @@ def checkimages():
             # print (i, "can be used")
             count= count+1
         else:
-            print (i, "cannot be used")
+            print (i, "cannot be used. Ignored!")
             removelist.append(i)
     for i in a[:]: #removing files which are not jpg..
         if i in removelist:
