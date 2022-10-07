@@ -1,1 +1,9 @@
-Due to copyright reasons I cannot include poppler in the repository. You need to download poppler zip from https://blog.alivate.com.au/poppler-windows/ and extract it within the folder. It will then recognise the poppler_path!
+Sanskrit OCR is a tool to convert images of Sanskrit text to english sentences! The main purpose of this project was to help prevent sanskrit texts from dissapearing by having a way to convert it and store in an online database.
+
+Steps to run:
+1. Have python installed! Made using Python 3.10.7
+2. run pip install requirements.txt
+3. Store your jpg files in images. Run main.py
+4. Results will be generated in the results folder. Be sure to have unique names of the image files else they'll be overwritten in the results.
+
+Note: Only images with jpg extensions will work. Will add support for more image types in the future!
