@@ -7,5 +7,5 @@ Steps to run:
 4. Results will be generated in the results folder. Be sure to have unique names of the image files else they'll be overwritten in the results.
 
 Note: 
-1. Only images with jpg extensions will work. Will add support for more image types in the future!
+1. Only images with jpg, png extensions will work. Will add support for more image types in the future!
 2. Having CUDA installed in your system with a CUDA supported gpu will really help as the recognition model uses cuda features.

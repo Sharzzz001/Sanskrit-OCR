@@ -2,7 +2,7 @@ import os
 def checkimages():
     removelist=[]
     finallist=[]
-    print("\nFile type supported is jpg! Others will be ignored.\n")
+    print("\nFile types supported are jpg and png! Others will be ignored.\n")
     path = r"images/"
     a=os.listdir(path)
     count=0
