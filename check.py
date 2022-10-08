@@ -10,7 +10,7 @@ def checkimages():
         # print(a)
         ext = os.path.splitext(i)[-1].lower()
         # Now we can simply use == to check for equality, no need for wildcards.
-        if ext == ".jpg":
+        if ext == ".jpg" or ext=='.png':
             # print (i, "can be used")
             count= count+1
         else:

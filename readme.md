@@ -6,4 +6,6 @@ Steps to run:
 3. Store your jpg files in images. Run main.py
 4. Results will be generated in the results folder. Be sure to have unique names of the image files else they'll be overwritten in the results.
 
-Note: Only images with jpg extensions will work. Will add support for more image types in the future!
+Note: 
+1. Only images with jpg extensions will work. Will add support for more image types in the future!
+2. Having CUDA installed in your system with a CUDA supported gpu will really help as the recognition model uses cuda features.
